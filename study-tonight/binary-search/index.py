@@ -24,7 +24,7 @@ def binary_search(list, target):
 	tail_index = list_length - 1
 
 	# step 1
-	while (head_index < tail_index):
+	while (head_index <= tail_index):
 		middle_index = int((head_index + tail_index) / 2)
 		if (list[middle_index] > target):
 			tail_index = middle_index -1
