@@ -8,6 +8,7 @@ import unittest
 # we will analyse the same and see why it is O(n) after implementing it.
 
 
+
 # Following are the steps of implementation that we will be following:
 
 # 1. Traverse the array using a for loop.
@@ -21,7 +22,6 @@ import unittest
 
 
 def linear_search(list, target):
-	print("linear search")
 	# step 1
 	for index in range(len(list)):
 		# step 2
