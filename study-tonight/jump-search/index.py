@@ -12,6 +12,7 @@ import math
 # Iteration 3: if (x==A[2m]), then success, else, if (x > A[2m]), then jump to the next block.
 # At any point in time, if (x < A[km]), then a linear search is performed from index A[(k-1)m] to A[km]
 
+
 def linear_search(list, target):
 	# step 1
 	for index in range(len(list)):
