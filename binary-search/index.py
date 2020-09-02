@@ -1,5 +1,7 @@
 import unittest
 
+# Study tonight
+
 # Binary Search is applied on the sorted array or list of large size.
 # It's time complexity of O(log n) makes it very fast as compared to other sorting algorithms.
 # The only limitation is that the array or list of elements must be sorted for the binary search algorithm to work on it.
