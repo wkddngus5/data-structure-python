@@ -23,6 +23,12 @@ import unittest
 # 2. If the current element is greater than the next element of the array, swap them.
 # 3. If the current element is less than the next element, move to the next element. Repeat Step 1.
 
+
+
+# Worst Case Time Complexity [ Big-O ]: O(n2)
+
+
+
 def bubble_sort(list):
 	for index2 in range(len(list) - 1):
 		for index in range(len(list) - index2 - 1):
