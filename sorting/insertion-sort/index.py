@@ -29,6 +29,9 @@ import unittest
 # 4. And we go on repeating this, until the array is sorted.
 
 
+# Worst Case Time Complexity [ Big-O ]: O(n2)
+
+
 
 def insertion_sort(list):
 	for index in range(1, len(list)):
